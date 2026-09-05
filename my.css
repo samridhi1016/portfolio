@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(purple,lavender);
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h2,p{
+    text-align: left;
+}
+h1{
+    font-family:inherit;
+    font-style:oblique;
+    font-size: 50px;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+.photos img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+ul,ol{
+    text-align: left;
+}
+
+.profile-photo{
+    position:absolute;
+    top: 100px;
+    right: 50px;
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+}
